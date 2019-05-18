@@ -81,22 +81,22 @@ footer .footer_copyright {
 }
 
 .carrousel_image {
-    
+
     background-size: cover !important;
 }
 
-.artist_name {
+.title_name {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 400px;
     height: 160px;
-    -webkit-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%);   
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     border: 2px solid white;
 }
 
-.artist_name .wrapper {
+.title_name .wrapper {
     border: 2px solid white;
     height: 121px;
     margin: 6px;
@@ -118,22 +118,24 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
-    font-size: 19px;
+    background: #2f2f2f;
+    font-size: 15px;
     padding: 10px;
     display: inline-block;
     text-transform: uppercase;
+    opacity: 0.85;
 }
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #2f2f2f;
     padding: 10px 20px;
+    opacity: 0.85;
 }
 
 .countdown_wrapper .countdown_time {
-    font-size: 70px;
-    border-right: 1px solid #F44336;
+    font-size: 30px;
+    border-right: 1px solid #2f2f2f;
     margin-right: 14px;
     padding-right: 49px;
 }
@@ -161,7 +163,7 @@ footer .footer_copyright {
     color:#ffffff;
     text-align: center;
 }
-                      
+
 .vn_item .vn_outer {
     width: 300px;
     border: 2px solid #828282;
@@ -169,7 +171,7 @@ footer .footer_copyright {
     padding: 5px;
 }
 
-.vn_item .vn_inner { 
+.vn_item .vn_inner {
     border: 2px solid #828282;
     position: relative;
     padding: 0px 20px;
@@ -267,7 +269,7 @@ footer .footer_copyright {
     color: #2c2c2c;
 }
 
-.discount_wrapper .discount_description p { 
+.discount_wrapper .discount_description p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -336,7 +338,7 @@ footer .footer_copyright {
 
 
 /*====================
-        LOCATION    
+        LOCATION
 ======================*/
 
 .location_wrapper {

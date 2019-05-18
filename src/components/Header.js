@@ -51,14 +51,19 @@ import SideDrawer from './SideDrawer';
                     padding: '10px 0px'
 
                 }}>
+
+
                 <Toolbar>
+
+
                     <div className ="leader_logo">
                         <div className ='font_righteous header_logo_venue'> Ragnarok </div>
                         <div className = 'header_logo_title'> Icelandic Adventures </div>
                     </div>
 
 
-                    <IconButton
+                     <IconButton
+                        style={{float : 'left', paddingRight : '5px'}}
                         aria-label="Menu"
                         color="inhert"
                         onClick = {() => this.toggleDrawer(true)}
