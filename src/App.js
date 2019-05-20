@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Featured from './components/featured/';
 import TimeUntil from './components/featured/';
 import VenueInfo from './components/venueinfo';
+import Highlights from './components/Highlights';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
     <TimeUntil/>
     <VenueInfo/>
+    <Highlights/>
     </div>
 
     </div>
